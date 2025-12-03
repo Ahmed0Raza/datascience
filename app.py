@@ -328,7 +328,7 @@ def main():
             <div class="metric-card">
                 <h3>RQ1</h3>
                 <p><strong>How accurately can we predict student marks in Midterm I?</strong></p>
-                <p style="font-size: 0.9rem; color: #555;">Using assignments and quizzes completed before Midterm I</p>
+                <p style="font-size: 0.9rem; color: #000;">Using assignments and quizzes completed before Midterm I</p>
             </div>
             """, unsafe_allow_html=True)
         
@@ -337,7 +337,7 @@ def main():
             <div class="metric-card">
                 <h3>RQ2</h3>
                 <p><strong>How accurately can we predict student marks in Midterm II?</strong></p>
-                <p style="font-size: 0.9rem; color: #555;">Using assignments, quizzes, and Midterm I results</p>
+                <p style="font-size: 0.9rem; color: #000;">Using assignments, quizzes, and Midterm I results</p>
             </div>
             """, unsafe_allow_html=True)
         
@@ -346,7 +346,7 @@ def main():
             <div class="metric-card">
                 <h3>RQ3</h3>
                 <p><strong>How accurately can we predict final examination marks?</strong></p>
-                <p style="font-size: 0.9rem; color: #555;">Using all assignments, quizzes, and midterm results</p>
+                <p style="font-size: 0.9rem; color: #000;">Using all assignments, quizzes, and midterm results</p>
             </div>
             """, unsafe_allow_html=True)
         
