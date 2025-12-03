@@ -34,10 +34,10 @@ st.markdown("""
         margin-bottom: 1rem;
     }
     .metric-card {
-        background-color: #f0f2f6;
+        background-color: transparent;
         padding: 1.5rem;
         border-radius: 0.5rem;
-        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        border: 2px solid rgba(255, 255, 255, 0.2);
     }
     .stTabs [data-baseweb="tab-list"] {
         gap: 2rem;
@@ -326,27 +326,27 @@ def main():
         with col1:
             st.markdown("""
             <div class="metric-card">
-                <h3>RQ1</h3>
-                <p><strong>How accurately can we predict student marks in Midterm I?</strong></p>
-                <p style="font-size: 0.9rem; color: #000;">Using assignments and quizzes completed before Midterm I</p>
+                <h3 style="color: white;">RQ1</h3>
+                <p style="color: white;"><strong>How accurately can we predict student marks in Midterm I?</strong></p>
+                <p style="font-size: 0.9rem; color: rgba(255, 255, 255, 0.8);">Using assignments and quizzes completed before Midterm I</p>
             </div>
             """, unsafe_allow_html=True)
         
         with col2:
             st.markdown("""
             <div class="metric-card">
-                <h3>RQ2</h3>
-                <p><strong>How accurately can we predict student marks in Midterm II?</strong></p>
-                <p style="font-size: 0.9rem; color: #000;">Using assignments, quizzes, and Midterm I results</p>
+                <h3 style="color: white;">RQ2</h3>
+                <p style="color: white;"><strong>How accurately can we predict student marks in Midterm II?</strong></p>
+                <p style="font-size: 0.9rem; color: rgba(255, 255, 255, 0.8);">Using assignments, quizzes, and Midterm I results</p>
             </div>
             """, unsafe_allow_html=True)
         
         with col3:
             st.markdown("""
             <div class="metric-card">
-                <h3>RQ3</h3>
-                <p><strong>How accurately can we predict final examination marks?</strong></p>
-                <p style="font-size: 0.9rem; color: #000;">Using all assignments, quizzes, and midterm results</p>
+                <h3 style="color: white;">RQ3</h3>
+                <p style="color: white;"><strong>How accurately can we predict final examination marks?</strong></p>
+                <p style="font-size: 0.9rem; color: rgba(255, 255, 255, 0.8);">Using all assignments, quizzes, and midterm results</p>
             </div>
             """, unsafe_allow_html=True)
         
